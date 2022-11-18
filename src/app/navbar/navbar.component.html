@@ -1,0 +1,147 @@
+<style>
+.scll{
+    background-color: brown;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 25px;
+    font-size: 30px;
+}
+</style>
+
+
+<nav class="navbar navbar-light bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="http://localhost:4200">
+      <img src="https://www.mypet.com/img/new-pet-owner/10_best_apps_Header_Banner.jpg" width="40" height="40" alt="img not found" style="border-radius:50px;">
+    </a>
+  
+    <h2 class="mt-2">Pets Record App</h2>
+    
+    <div class="d-flex">
+      <a href="http://localhost:4200" ><button class="btn btn-secondary">Home</button></a> 
+    </div>  
+    <div class="d-flex">
+      <a routerLink="/about" routerLinkActive="active"><button class="btn btn-success">About</button></a> 
+    </div> 
+    
+    <div class="d-flex">
+      <a routerLink="/contact" routerLinkActive="active"><button class="btn btn-info">Contact Us</button></a> 
+    </div> 
+   
+    
+    <div class="d-flex">
+      <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Pet</button>
+    </div>
+  </div>
+</nav>
+
+<!--carousel-->
+
+
+
+<!--jumbotron-->
+
+<script>
+  $(document).ready(function(){
+
+
+
+$("#phtb").click(function(){
+$("h3").text("Welcome To MySite");
+
+});
+
+});
+</script>
+
+<div >
+  <img src="data:image/jpeg;base64,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" height="500px" width="100%" />
+</div>
+
+<div class="p-5 mb-4 bg-secondary rounded-3 mt-5">
+  <div class="container-fluid py-5">
+    <h1 class="display-5 fw-bold zing text-white">Pets Records Management</h1>
+    <p class="col-md-8 fs-4 ming text-white">You can save Records of Pets using this app</p>
+    <marquee class="scll mt-4" style="color:aliceblue; font-weight: 800; text-shadow: 2px 2px #ff0000;">Well Come To Pets Record Management</marquee>
+  </div>
+</div>
+
+<!--Table shown here-->
+
+<table class="table mt-5">
+  <thead>
+    <tr>
+      <th scope="col">Restaurant ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Mobile</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of allPetData">
+     <td>{{data.id}}</td>
+     <td>{{data.name}}</td>
+     <td>{{data.email}}</td>
+     <td>{{data.mobile}}</td>
+     <td>{{data.address}}</td>
+     <td>{{data.services}}</td>
+     <td>
+      
+      <button (click)="deletePets(data)" class="btn btn-danger">Delete</button>
+     </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pets Record</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="formValue">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Name</label>
+            <input type="text" formControlName="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Owner Name">
+           
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">emailId</label>
+            <input type="email" formControlName="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Owner email">
+            
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Mobile</label>
+            <input type="text" formControlName="mobile" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Owner Mobile">
+            
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Address</label>
+            <input type="Address" formControlName="address" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Owner Address">
+             
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputServices1" class="form-label">Services</label>
+            <input type="text" formControlName="services" class="form-control" id="exampleInputPassword1" placeholder="Enter Services">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+         
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" (click)="addPet()">Add Details</button>
+        
+      </div>
+    </div>
+  </div>
+</div>

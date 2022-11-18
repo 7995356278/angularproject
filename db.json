@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "name": "ravi",
+      "email": "ravi@gmail.com",
+      "mobile": "9493768777",
+      "address": "bandhar",
+      "services": "Pet Accomidation"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
